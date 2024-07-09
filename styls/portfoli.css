@@ -50,6 +50,9 @@ color: #474747;
 .dark-1{
 color: #181818;
 }
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 .btn-primary{
   background-color: #FD6E0A;
   color: white;
@@ -58,7 +61,17 @@ color: #181818;
   border-radius:5px;
   font-size: 20px;
 }
-
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+}
+.section-description{
+  font-size: 18px;
+  font-weight: 200;
+  color: #757575;
+}
 /* banner Styles */
 .banner{
   display: flex;
@@ -75,7 +88,7 @@ color: #181818;
   font-size: 45px;
 }
 .banner-title{
-  font-size: 85px;
+  font-size: 60px;
   font-weight: bold;
 }
 .banner-description{
@@ -84,4 +97,30 @@ color: #181818;
 }
 .banner-profile-pic{
   width: 584px;
+}
+/* Main Styles */
+main{
+  max-width: 1140px;
+  
+  margin: 0px auto;
+  
+
+}
+
+/* About style */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  color: #474747;
+}
+.item-description{
+  font-weight: bold;
+  font-size: 20px;
+  color: #181818;
 }
